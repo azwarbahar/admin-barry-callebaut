@@ -12,5 +12,5 @@ while ($row = mysqli_fetch_assoc($result)) {
 }
 
 echo ($result) ?
-    json_encode(array("kode" => "1", "petani_data" => $array)) :
-    json_encode(array("kode" => "0", "pesan" => "Data tidak ditemukan"));
+    json_encode(preg_replace('/<!--(.|\s)*?-->/', '', array("kode" => "1", "petani_data" => $array))) :
+    json_encode(preg_replace('/<!--(.|\s)*?-->/', '', array("kode" => "0", "pesan" => "Data tidak ditemukan")));
