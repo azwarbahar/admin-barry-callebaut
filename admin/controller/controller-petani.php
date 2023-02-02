@@ -19,11 +19,12 @@ if (isset($_POST['submit_tambah_petani'])) {
     $kecamatan = $_POST['kecamatan'];
     $kelurahan = $_POST['kelurahan'];
     $status = "Aktif";
+    $foto = "photo_default.png";
 
     // TAMBAH DATA
 
-    $query = "INSERT INTO tb_petani (`id`, `nama`, `id_petani`, `kontak`, `kelurahan`, `kecamatan`, `status`, `petugas_id`, `created_at`, `updated_at`)
-                        VALUES (NULL, '$nama', '$id_petani', '$kontak', '$kelurahan', '$kecamatan', '$status', '$petugas',  NULL,  NULL);";
+    $query = "INSERT INTO tb_petani (`id`, `nama`, `id_petani`, `kontak`, `kelurahan`, `kecamatan`, `foto`, `status`, `petugas_id`, `created_at`, `updated_at`)
+                        VALUES (NULL, '$nama', '$id_petani', '$kontak', '$kelurahan', '$kecamatan', '$foto', '$status', '$petugas',  NULL,  NULL);";
     // mysqli_query($conn, $query);
     // echo " bb";
     if (mysqli_query($conn, $query)) {
