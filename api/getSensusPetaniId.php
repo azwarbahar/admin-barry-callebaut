@@ -12,7 +12,12 @@ $result = mysqli_query($conn, $query);
 while ($row = mysqli_fetch_assoc($result)) {
     $array = $row;
 }
-
-echo ($result) ?
-    json_encode(array("kode" => "1", "result_sensus" => $array)) :
-    json_encode(array("kode" => "0", "pesan" => "Data tidak ditemukan"));
+if ($result) {
+    if ($array != null) {
+        json_encode(array("kode" => "1", "result_sensus" => $array));
+    } else {
+        json_encode(array("kode" => "2", "pesan" => "Data tidak ditemukan"));
+    }
+} else {
+    json_encode(array("kode" => "0", "pesan" => mysqli_error($conn)));
+}
