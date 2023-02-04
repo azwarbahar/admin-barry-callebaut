@@ -12,10 +12,10 @@ if (mysqli_query($conn, $query)) {
         $array = $row;
     }
     if ($array != null) {
-        json_encode(array("kode" => "1", "result_sensus" => $array));
+        echo json_encode(array("kode" => "1", "result_sensus" => $array));
     } else {
-        json_encode(array("kode" => "2", "pesan" => "Data tidak ditemukan"));
+        echo json_encode(array("kode" => "2", "pesan" => "Data tidak ditemukan"));
     }
 } else {
-    json_encode(array("kode" => "0", "pesan" => mysqli_error($conn)));
+    echo json_encode(array("kode" => "0", "pesan" => mysqli_error($conn)));
 }
