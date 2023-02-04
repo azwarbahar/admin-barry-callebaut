@@ -5,18 +5,10 @@ error_reporting(E_ERROR | E_PARSE);
 
 $id = $_POST['id'];
 
-// SET FOTO
-$foto = $_FILES['foto']['name'];
-$ext = pathinfo($foto, PATHINFO_EXTENSION);
-$nama_foto = "image_" . time() . "." . $ext;
-$file_tmp = $_FILES['foto']['tmp_name'];
-
-$query = "UPDATE tb_petani SET dokumentasi_sensus = '$nama_foto',
+$query = "UPDATE tb_petani SET dokumentasi_sensus = NULL,
                                 updated_at = NULL WHERE id = '$id'";
 
 if (mysqli_query($conn, $query)) {
-
-    move_uploaded_file($file_tmp, '../assets/images/photo/' . $nama_foto);
 
     $result["kode"] = "1";
     $result["pesan"] = "Success!";
