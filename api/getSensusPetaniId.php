@@ -4,7 +4,7 @@ header('Content-type: application/json');
 error_reporting(E_ERROR | E_PARSE);
 
 $petani_id = $_GET["petani_id"];
-$query = "SELECT * FROM tb_sensus WHERE petani_id = '$petani_id'";
+$query = "SELECT * FROM tb_sensus WHERE petani_id = '$petani_id' ORDER BY id ASC";
 
 //  $array = array();
 if (mysqli_query($conn, $query)) {
