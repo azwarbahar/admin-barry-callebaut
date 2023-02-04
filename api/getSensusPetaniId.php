@@ -6,13 +6,11 @@ error_reporting(E_ERROR | E_PARSE);
 $petani_id = $_GET["petani_id"];
 $query = "SELECT * FROM tb_sensus WHERE petani_id = '$petani_id'";
 
-$result = mysqli_query($conn, $query);
-
 //  $array = array();
-while ($row = mysqli_fetch_assoc($result)) {
-    $array = $row;
-}
-if ($result) {
+if (mysqli_query($conn, $query)) {
+    while ($row = mysqli_fetch_assoc($result)) {
+        $array = $row;
+    }
     if ($array != null) {
         json_encode(array("kode" => "1", "result_sensus" => $array));
     } else {
