@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 
 $petani_id = $_GET['petani_id'];
 
-$query = "SELECT * FROM tb_inspeksi WHERE petani_id = '$petani_id' ORDER BY id ASC";
+$query = "SELECT * FROM tb_inspeksi WHERE petani_id = '$petani_id' ORDER BY id  DESC LIMIT 1";
 $result = mysqli_query($conn, $query);
 $data_inspeksi = mysqli_fetch_assoc($result);
 if (mysqli_num_rows($result) > 0) {
