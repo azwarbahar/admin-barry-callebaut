@@ -336,6 +336,9 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE status = 'Aktif' OR
                                                         mysqli_query($conn, $query);
                                                     } else {
                                                         echo "<th>$total</th>";
+
+                                                        $query = "UPDATE tb_petani SET status = 'Aktif', updated_at = NULL WHERE id = '$dta_petani[id]'";
+                                                        mysqli_query($conn, $query);
                                                     }
                                                     // $tampung_total[$z] = $total;
                                                 } else {
