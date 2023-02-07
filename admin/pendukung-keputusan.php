@@ -290,7 +290,7 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE status = 'Aktif' OR
                         </div>
                         <div id="bg-danger" class="panel-collapse collapse in">
                             <div class="portlet-body">
-                                <table id="datatable4-buttons" class="table table-striped table-bordered">
+                                <table id="datatable-buttons" class="table table-striped table-bordered">
                                     <thead>
                                         <tr>
                                             <th>Nama</th>
