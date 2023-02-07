@@ -1,5 +1,5 @@
 <?php
-require_once '../../koneksi.php';
+require_once '../koneksi.php';
 header('Content-type: application/json');
 error_reporting(E_ERROR | E_PARSE);
 
