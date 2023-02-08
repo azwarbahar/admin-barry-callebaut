@@ -65,7 +65,7 @@ if (isset($_POST['submit_tambah_koordinator'])) {
     $username = $_POST['username'];
     // $default_password = "Adminuinamfind123";
     $password = password_hash($username, PASSWORD_DEFAULT);
-    $posisi = "Koodrinator";
+    $posisi = "Koordinator";
     $foto = "photo_default.png";
 
     // echo " aa";
