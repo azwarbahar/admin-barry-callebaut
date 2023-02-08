@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 
 $role = $_GET["role"];
 $petugas_id = $_GET["petugas_id"];
-if ($role == "Koordiantor") {
+if ($role == "Koordinator") {
     $query_sudah_sensus = "SELECT * FROM tb_petani WHERE tanggal_sensus IS NOT NULL ";
     $result_sudah_sensus = mysqli_query($conn, $query_sudah_sensus);
     $jumlah_sudah_sensus = mysqli_num_rows($result_sudah_sensus);
