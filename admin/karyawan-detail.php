@@ -115,17 +115,21 @@ $dta = mysqli_fetch_assoc($result);
 
                                         <tbody>
                                             <?php $i = 1;
-                                            $petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE petugas_id = '$id' ORDER BY id DESC");
+                                            if ($dta['posisi'] == "Petugas") {
+                                                $petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE petugas_id = '$id' ORDER BY id DESC");
+                                            } else {
+                                                $petani = mysqli_query($conn, "SELECT * FROM tb_petani ORDER BY id DESC");
+                                            }
 
-                                            foreach ($petani as $dta) { ?>
+                                            foreach ($petani as $dta_petani) { ?>
                                                 <tr>
-                                                    <td><?= $dta['id_petani'] ?></td>
-                                                    <td><?= $dta['nama'] ?></td>
-                                                    <td><?= $dta['kelurahan'] ?></td>
-                                                    <td><?= $dta['kecamatan'] ?></td>
-                                                    <td><?= $dta['kontak'] ?></td>
+                                                    <td><?= $dta_petani['id_petani'] ?></td>
+                                                    <td><?= $dta_petani['nama'] ?></td>
+                                                    <td><?= $dta_petani['kelurahan'] ?></td>
+                                                    <td><?= $dta_petani['kecamatan'] ?></td>
+                                                    <td><?= $dta_petani['kontak'] ?></td>
                                                     <?php
-                                                    $status = $dta['status'];
+                                                    $status = $dta_petani['status'];
                                                     if ($status == "Aktif") {
                                                         echo "<td><span class='label label-primary'> Aktif </span></td>";
                                                     } else if ($status == "Out") {
@@ -137,7 +141,7 @@ $dta = mysqli_fetch_assoc($result);
                                                     }
                                                     ?>
                                                     <td style="text-align: center;">
-                                                        <a href="petani-detail.php?id=<?= $dta['id'] ?>" class="table-action-btn"><i class="md md-visibility"></i></a>
+                                                        <a href="petani-detail.php?id=<?= $dta_petani['id'] ?>" class="table-action-btn"><i class="md md-visibility"></i></a>
                                                     </td>
                                                 </tr>
 
