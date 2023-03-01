@@ -89,7 +89,7 @@ $get_data_akun = mysqli_fetch_assoc($query_header_akun);
 
                     <!-- Image Logo here -->
                     <a href="index.php" class="logo">
-                        <i class="icon-c-logo"> <img src="../assets/images/admin.png" height="42" /> </i>
+                        <i class="icon-c-logo"> <img src="../assets/images/admin.png" height="20" /> </i>
                         <span><img src="../assets/images/admin-panjang.png" height="20" /></span>
                     </a>
                 </div>
