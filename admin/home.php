@@ -69,9 +69,9 @@ require_once '../template/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4" style="overflow-y: scroll; height:600px; weight: 1400px;">
+
             <div class="row">
-               
+                <div class="col-lg-8">
 
                     <div class="portlet">
                         <div class="portlet-heading portlet-default">
