@@ -186,8 +186,8 @@ require_once '../template/header.php';
                         </div>
                     </div>
                 </div>
-                <row>
-                 <div class="col-8" style="overflow-y: scroll; height: 300px; width: 100%;">
+                register_shutdown_function
+                 <div class="col-lg-3" style="overflow-y: scroll; height: 300px; width: 100%;">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="portlet">
@@ -299,7 +299,6 @@ require_once '../template/header.php';
                     </div>
 
                 </div>
-                                                </row>
 
 
             </div>
