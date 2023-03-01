@@ -58,7 +58,7 @@ require_once '../template/header.php';
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="widget-panel widget-style-2 bg-white">
-                        <i class="md md-verified-user text-danger"></i>
+                        <i class="md md-verified-user text-info"></i>
                         <?php
                         $petani_suspend = mysqli_query($conn, "SELECT * FROM tb_petani WHERE status = 'Suspended'");
                         $row_petani_suspend = mysqli_num_rows($petani_suspend);
