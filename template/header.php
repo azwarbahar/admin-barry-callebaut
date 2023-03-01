@@ -101,7 +101,7 @@ $get_data_akun = mysqli_fetch_assoc($query_header_akun);
                     <div class="">
                         <div class="pull-left">
                             <button class="button-menu-mobile open-left waves-effect waves-light">
-                                <i class="md md-menu"></i>
+                                <i class="md md-apps"></i>
                             </button>
                             <span class="clearfix"></span>
                         </div>
