@@ -65,7 +65,7 @@ require_once '../template/header.php';
                         $row_petani_suspend_final = $row_petani_suspend;
                         ?>
                         <h2 class="m-0 text-dark counter font-600"><?= $row_petani_suspend_final ?></h2>
-                        <div class="text-muted m-t-5">Petani Rekomendasi Keluar</div>
+                        <div class="text-muted m-t-5">Petani Rek. Keluar</div>
                     </div>
                 </div>
             </div>
