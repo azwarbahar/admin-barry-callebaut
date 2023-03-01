@@ -210,7 +210,7 @@ require_once '../template/header.php';
                                             <table class="table table-actions-bar m-0">
                                                 <thead>
                                                     <tr>
-                                                        <th>#</th>
+                                                        <th>Foto</th>
                                                         <th> Nama </th>
                                                         <th> Nilai </th>
                                                         <th> </th>
