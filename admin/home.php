@@ -187,7 +187,7 @@ require_once '../template/header.php';
                     </div>
                 </div>
                 
-                 <div class="col-lg-4" style="overflow-y: scroll; height: 300px; width: 100%;">
+                 <div class="col-8" style="overflow-y: scroll; height: 300px; width: 100%;">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="portlet">
