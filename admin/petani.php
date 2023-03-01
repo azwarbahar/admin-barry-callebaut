@@ -86,10 +86,18 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani ORDER BY id DESC");
                                                     <input type="text" class="nb-edt form-control" required="" autocomplete="off" placeholder="Kecamatan" name="kecamatan" id="kecamatan">
                                                 </div>
                                             </div>
+
                                             <div class="form-group row">
                                                 <label class="col-sm-3 col-form-label">Desa/Kelurahan</label>
                                                 <div class="col-sm-9">
                                                     <input type="text" class="nb-edt form-control" required="" autocomplete="off" placeholder="Kelurahan" name="kelurahan" id="kelurahan">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Nomor KK</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="nb-edt form-control" required="" autocomplete="off" placeholder="Nomor KK" name="nomor_kk" id="nomor_kk">
                                                 </div>
                                             </div>
 
