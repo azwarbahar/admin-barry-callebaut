@@ -98,8 +98,8 @@ require_once '../template/header.php';
                                         <thead>
                                             <tr>
                                                 <th>Foto</th>
-                                                <th> Nama </th>
                                                 <th> Aktivitas </th>
+                                                <th> Nama </th>
                                                 <th> Petani </th>
                                                 <th> Tanggal </th>
                                             </tr>
@@ -119,8 +119,11 @@ require_once '../template/header.php';
                                                     $result_petugas = mysqli_query($conn, "SELECT * FROM tb_karyawan WHERE id = '$dta_inspeksi[petugas_id]'");
                                                     $dta_petugas = mysqli_fetch_assoc($result_petugas);
                                                     ?>
-                                                    <td> <a href="karyawan-detail.php?id=<?= $dta_petugas['id'] ?>"> <?= $dta_petugas['nama'] ?> </a> </td>
+                                                    
                                                     <td>Inspeksi</td>
+                                                    
+                                                    <td> <a href="karyawan-detail.php?id=<?= $dta_petugas['id'] ?>"> <?= $dta_petugas['nama'] ?> </a> </td>
+                                                    
                                                     <?php
                                                     $result_petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE id = '$dta_inspeksi[petani_id]'");
                                                     $dta_petani = mysqli_fetch_assoc($result_petani);
