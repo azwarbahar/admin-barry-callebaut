@@ -84,12 +84,14 @@ $get_data_akun = mysqli_fetch_assoc($query_header_akun);
             <!-- LOGO -->
             <div class="topbar-left">
                 <div class="text-center">
-                    <a href="index.php" class="logo"><i class="icon-magnet icon-c-logo"></i><span>Barry Callebaut</span></a>
+                    <!-- Text Logo here -->
+                    <!-- <a href="index.php" class="logo"><i class="icon-magnet icon-c-logo"></i><span>Barry Callebaut</span></a> -->
+
                     <!-- Image Logo here -->
-                    <!-- <a href="index.php" class="logo">
+                    <a href="index.php" class="logo">
                         <i class="icon-c-logo"> <img src="../assets/images/icon_uianam.png" height="42" /> </i>
                         <span><img src="../assets/images/logo_text.png" height="20" /></span>
-                    </a> -->
+                    </a>
                 </div>
             </div>
 
