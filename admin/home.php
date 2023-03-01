@@ -186,38 +186,8 @@ require_once '../template/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-      <div id="item-1">
-        <h4>Item 1</h4>
-        <p>...</p>
-      </div>
-      <div id="item-1-1">
-        <h5>Item 1-1</h5>
-        <p>...</p>
-      </div>
-      <div id="item-1-2">
-        <h5>Item 1-2</h5>
-        <p>...</p>
-      </div>
-      <div id="item-2">
-        <h4>Item 2</h4>
-        <p>...</p>
-      </div>
-      <div id="item-3">
-        <h4>Item 3</h4>
-        <p>...</p>
-      </div>
-      <div id="item-3-1">
-        <h5>Item 3-1</h5>
-        <p>...</p>
-      </div>
-      <div id="item-3-2">
-        <h5>Item 3-2</h5>
-        <p>...</p>
-      </div>
-    </div>
-                 <div class="col-lg-4">
+                
+                 <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="portlet">
