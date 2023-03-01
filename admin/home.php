@@ -147,14 +147,14 @@ require_once '../template/header.php';
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="portlet">
-                                <div class="portlet-heading bg-danger">
+                                <div class="portlet-heading bg-pink">
                                     <h3 class="portlet-title">
                                         Petani Rekomendasi Keluar
                                     </h3>
                                     <div class="portlet-widgets">
                                         <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
                                         <span class="divider"></span>
-                                        <a data-toggle="collapse" data-parent="#accordion1" href="#bg-pink"><i class="ion-minus-round"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#bg-danger"><i class="ion-minus-round"></i></a>
                                         <span class="divider"></span>
                                     </div>
                                     <div class="clearfix"></div>
