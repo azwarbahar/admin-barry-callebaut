@@ -154,7 +154,7 @@ require_once '../template/header.php';
                                     <div class="portlet-widgets">
                                         <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
                                         <span class="divider"></span>
-                                        <a data-toggle="collapse" data-parent="#accordion1" href="#bg-danger"><i class="ion-minus-round"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#bg-pink"><i class="ion-minus-round"></i></a>
                                         <span class="divider"></span>
                                     </div>
                                     <div class="clearfix"></div>
