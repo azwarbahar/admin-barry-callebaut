@@ -94,13 +94,6 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani ORDER BY id DESC");
                                                 </div>
                                             </div>
                                             
-                                            <div class="form-group row">
-                                                <label class="col-sm-3 col-form-label">Nomor KK</label>
-                                                <div class="col-sm-9">
-                                                    <input type="text" class="nb-edt form-control" required="" autocomplete="off" placeholder="Nomor KK" name="nomor_kk" id="nomor_kk">
-                                                </div>
-                                            </div>
-
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">Batal</button>
                                                 <button type="submit" name="submit_tambah_petani" class="btn btn-default waves-effect">Simpan</button>
