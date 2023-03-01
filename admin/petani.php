@@ -106,7 +106,7 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani ORDER BY id DESC");
                         <!-- AKHIR MODAL TABAH KARYAWAN -->
                         <a href="#" class="btn btn-default btn-rounded waves-effect waves-light m-b-30" data-toggle="modal" data-target="#con-close-modal-petani">Tambah</a>
 
-                        <table id="datatable-buttons" class="table table-striped table-bordered table-actions-bar">
+                        <table id="datatable-buttons" class="table table-striped table-bordered">
                             <thead>
                                 <tr>
                                     <th>ID</th>
