@@ -187,7 +187,7 @@ require_once '../template/header.php';
                     </div>
                 </div>
                 
-                 <div class="col-lg-4">
+                 <div class="col-lg-4" style="overflow-y: scroll; height: 300px; width: 100%;">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="portlet">
@@ -307,7 +307,16 @@ require_once '../template/header.php';
             <!-- ============================================================== -->
             <!-- End Right content here -->
             <!-- ============================================================== -->
+<script>
+// membaca elemen scroll area
+var scrollArea = document.querySelector('.scroll-area');
 
+// atur scroll area agar otomatis scroll ke bawah ketika konten berubah
+scrollArea.addEventListener('DOMNodeInserted', function() {
+  scrollArea.scrollTop = scrollArea.scrollHeight;
+});
+
+</script> 
             <?php
             require_once '../template/footer.php';
             ?>
