@@ -140,9 +140,52 @@ require_once '../template/header.php';
                     </div>
 
 
+                </div>              
+                
+                <div class="col-lg-4">
+                    <div class="portlet">
+                        <div class="portlet-heading portlet-default">
+                            <h3 class="portlet-title text-dark">
+                                Koordinator
+                            </h3>
+                            <div class="portlet-widgets">
+                                <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+                                <span class="divider"></span>
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#bg-loker"><i class="ion-minus-round"></i></a>
+                                <span class="divider"></span>
+                                <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div id="bg-loker" class="panel-collapse collapse in">
+                            <div class="portlet-body ">
+                                <?php
+                                $koordinator = mysqli_query($conn, "SELECT * FROM tb_karyawan WHERE posisi = 'Koordinator' ORDER BY id DESC");
+                                foreach ($koordinator as $dta_koordinator) {
+                                ?>
+                                    <div class="card-box">
+                                        <div class="contact-card">
+                                            <a class="pull-left" target="_blank" href="../assets/images/photo/<?= $dta_inspeksi['foto'] ?>">
+                                                <img class="img-responsive img-circle thumb-md" src="../assets/images/photo/<?= $dta_inspeksi['foto'] ?>" alt="Ishaq">
+                                            </a>
+
+                                            <div class="member-info">
+                                                <h4 class="m-t-0 m-b-5 header-title"> <a href="karyawan-detail.php?id=<?= $dta_koordinator['id'] ?> ?>"><b><?= $dta_koordinator['nama'] ?></b></a> </h4>
+                                                <p class="text-muted"><?= $dta_koordinator['alamat'] ?></p>
+                                                <!-- <p class="text-dark"><i class="md md-business m-r-10"></i><small>fsdfds</small></p> -->
+                                                <!-- <div class="m-t-20"> -->
+                                                <!-- <a href="#" class="btn btn-success waves-effect waves-light btn-sm m-l-5">Edit</a>
+                                                    <a href="#" class="btn btn-pink waves-effect waves-light btn-sm m-l-5">Call</a> -->
+                                                <!-- </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php
+                                } ?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-
                 <div class="col-lg-4">
                     <div class="row">
                         <div class="col-sm-12">
@@ -254,52 +297,6 @@ require_once '../template/header.php';
                         </div>
                     </div>
 
-                </div>
-                
-                
-                <div class="col-lg-4">
-                    <div class="portlet">
-                        <div class="portlet-heading portlet-default">
-                            <h3 class="portlet-title text-dark">
-                                Koordinator
-                            </h3>
-                            <div class="portlet-widgets">
-                                <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
-                                <span class="divider"></span>
-                                <a data-toggle="collapse" data-parent="#accordion1" href="#bg-loker"><i class="ion-minus-round"></i></a>
-                                <span class="divider"></span>
-                                <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div id="bg-loker" class="panel-collapse collapse in">
-                            <div class="portlet-body ">
-                                <?php
-                                $koordinator = mysqli_query($conn, "SELECT * FROM tb_karyawan WHERE posisi = 'Koordinator' ORDER BY id DESC");
-                                foreach ($koordinator as $dta_koordinator) {
-                                ?>
-                                    <div class="card-box">
-                                        <div class="contact-card">
-                                            <a class="pull-left" target="_blank" href="../assets/images/photo/<?= $dta_inspeksi['foto'] ?>">
-                                                <img class="img-responsive img-circle thumb-md" src="../assets/images/photo/<?= $dta_inspeksi['foto'] ?>" alt="Ishaq">
-                                            </a>
-
-                                            <div class="member-info">
-                                                <h4 class="m-t-0 m-b-5 header-title"> <a href="karyawan-detail.php?id=<?= $dta_koordinator['id'] ?> ?>"><b><?= $dta_koordinator['nama'] ?></b></a> </h4>
-                                                <p class="text-muted"><?= $dta_koordinator['alamat'] ?></p>
-                                                <!-- <p class="text-dark"><i class="md md-business m-r-10"></i><small>fsdfds</small></p> -->
-                                                <!-- <div class="m-t-20"> -->
-                                                <!-- <a href="#" class="btn btn-success waves-effect waves-light btn-sm m-l-5">Edit</a>
-                                                    <a href="#" class="btn btn-pink waves-effect waves-light btn-sm m-l-5">Call</a> -->
-                                                <!-- </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                <?php
-                                } ?>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
 
