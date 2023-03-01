@@ -157,13 +157,13 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE status = 'Aktif' OR
                                                 $jumlah_baris = mysqli_num_rows($inspeksi);
                                                 if ($jumlah_baris > 0) {
                                                 ?>
-                                                    <td><?= $data_inspeksi['a1'] - 2 ?></td>
+                                                    <td><?= $data_inspeksi['a1'] - 3 ?></td>
                                                     <td><?= $data_inspeksi['a2'] - 3 ?></td>
                                                     <td><?= $data_inspeksi['a3'] - 4 ?></td>
                                                     <td><?= $data_inspeksi['a4'] - 4 ?></td>
                                                     <td><?= $data_inspeksi['a5'] - 3 ?></td>
-                                                    <td><?= $data_inspeksi['a6'] - 3 ?></td>
-                                                    <td><?= $data_inspeksi['a7'] - 3 ?></td>
+                                                    <td><?= $data_inspeksi['a6'] - 4 ?></td>
+                                                    <td><?= $data_inspeksi['a7'] - 4 ?></td>
                                                     <td><?= $data_inspeksi['a8'] - 4 ?></td>
                                                     <td><?= $data_inspeksi['a9'] - 2 ?></td>
                                                 <?php
@@ -238,13 +238,13 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE status = 'Aktif' OR
                                                 $jumlah_baris = mysqli_num_rows($inspeksi);
                                                 if ($jumlah_baris > 0) {
                                                 ?>
-                                                    <td><?= perhitunganSelisiGAP($data_inspeksi['a1'] - 2) ?></td>
+                                                    <td><?= perhitunganSelisiGAP($data_inspeksi['a1'] - 3) ?></td>
                                                     <td><?= perhitunganSelisiGAP($data_inspeksi['a2'] - 3) ?></td>
                                                     <td><?= perhitunganSelisiGAP($data_inspeksi['a3'] - 4) ?></td>
                                                     <td><?= perhitunganSelisiGAP($data_inspeksi['a4'] - 4) ?></td>
                                                     <td><?= perhitunganSelisiGAP($data_inspeksi['a5'] - 3) ?></td>
-                                                    <td><?= perhitunganSelisiGAP($data_inspeksi['a6'] - 3) ?></td>
-                                                    <td><?= perhitunganSelisiGAP($data_inspeksi['a7'] - 3) ?></td>
+                                                    <td><?= perhitunganSelisiGAP($data_inspeksi['a6'] - 4) ?></td>
+                                                    <td><?= perhitunganSelisiGAP($data_inspeksi['a7'] - 4) ?></td>
                                                     <td><?= perhitunganSelisiGAP($data_inspeksi['a8'] - 4) ?></td>
                                                     <td><?= perhitunganSelisiGAP($data_inspeksi['a9'] - 2) ?></td>
                                                 <?php
@@ -309,13 +309,13 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE status = 'Aktif' OR
                                                 $data_inspeksi = mysqli_fetch_assoc($inspeksi);
                                                 $jumlah_baris = mysqli_num_rows($inspeksi);
                                                 if ($jumlah_baris > 0) {
-                                                    $a1 = perhitunganSelisiGAP($data_inspeksi['a1'] - 2);
+                                                    $a1 = perhitunganSelisiGAP($data_inspeksi['a1'] - 3);
                                                     $a2 = perhitunganSelisiGAP($data_inspeksi['a2'] - 3);
                                                     $a3 = perhitunganSelisiGAP($data_inspeksi['a3'] - 4);
                                                     $a4 = perhitunganSelisiGAP($data_inspeksi['a4'] - 4);
                                                     $a5 = perhitunganSelisiGAP($data_inspeksi['a5'] - 3);
-                                                    $a6 = perhitunganSelisiGAP($data_inspeksi['a6'] - 3);
-                                                    $a7 = perhitunganSelisiGAP($data_inspeksi['a7'] - 3);
+                                                    $a6 = perhitunganSelisiGAP($data_inspeksi['a6'] - 4);
+                                                    $a7 = perhitunganSelisiGAP($data_inspeksi['a7'] - 4);
                                                     $a8 = perhitunganSelisiGAP($data_inspeksi['a8'] - 4);
                                                     $a9 = perhitunganSelisiGAP($data_inspeksi['a9'] - 2);
                                                     // TD factor Core
