@@ -186,7 +186,16 @@ require_once '../template/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+  ...
+  <div id="navbar-example">
+    <ul class="nav nav-tabs" role="tablist">
+      ...
+    </ul>
+  </div>
+  ...
+</body>
+                 <div class="col-lg-4">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="portlet">
