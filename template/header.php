@@ -162,7 +162,7 @@ $get_data_akun = mysqli_fetch_assoc($query_header_akun);
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Batal</button>
-                        <a href="../logout.php?logout=true" type="button" class="btn btn-primary waves-effect waves-light">Logout</a>
+                        <a href="../logout.php?logout=true&for=login_admin" type="button" class="btn btn-primary waves-effect waves-light">Logout</a>
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
