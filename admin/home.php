@@ -187,7 +187,7 @@ require_once '../template/header.php';
                     </div>
                 </div>
                 
-                 <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                 <div class="col-lg-4">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="portlet">
