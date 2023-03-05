@@ -70,11 +70,9 @@ require_once '../template/header.php';
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-8" style="overflow-y: scroll; height:300px; weight: 1400px">
-
-                    <div class="portlet">
-                        <div class="portlet-heading portlet-default">
+            <div class="col-lg-6">
+                        		<div class="card-box">
+                                    <a href="#" class="pull-right btn btn-default btn-sm waves-effect waves-light">View All</a>
                             <h3 class="portlet-title text-dark">
                                 Aktivitas field facilitator
                             </h3>
