@@ -302,6 +302,65 @@ require_once '../template/header.php';
 
 
             </div>
+            <div class="row">
+							<div class="col-sm-12">
+								<div class="card-box">
+									<h4 class="m-t-0 header-title"><b>Basic Columns</b></h4>
+									<p class="text-muted font-13">
+										Example of basic columns (Your text goes here).
+									</p>
+									
+									<table data-toggle="table"
+										   data-show-columns="false"
+										   data-page-list="[5, 10, 20]"
+										   data-page-size="5"
+										   data-pagination="true" data-show-pagination-switch="true" class="table-bordered ">
+										<thead>
+											<tr>
+												<th data-field="id" data-switchable="false">First Name</th>
+												<th data-field="name">Last Name</th>
+												<th data-field="date">Job Title</th>
+												<th data-field="amount">DOB</th>
+												<th data-field="user-status" class="text-center">Status</th>
+											</tr>
+										</thead>
+										
+										<tbody>
+											<tr>
+												<td>Isidra</td>
+												<td>Boudreaux</td>
+												<td>Traffic Court Referee</td>
+												<td>22 Jun 1972</td>
+												<td><span class="label label-table label-success">Active</span></td>
+											</tr>
+											<tr>
+												<td>Shona</td>
+												<td>Woldt</td>
+												<td>Airline Transport Pilot</td>
+												<td>3 Oct 1981</td>
+												<td><span class="label label-table label-inverse">Disabled</span></td>
+											</tr>
+											<tr>
+												<td>Granville</td>
+												<td>Leonardo</td>
+												<td>Business Services Sales Representative</td>
+												<td>19 Apr 1969</td>
+												<td><span class="label label-table label-danger">Suspended</span></td>
+											</tr>
+											<tr>
+												<td>Easer</td>
+												<td>Dragoo</td>
+												<td>Drywall Stripper</td>
+												<td>13 Dec 1977</td>
+												<td><span class="label label-table label-success">Active</span></td>
+											</tr>
+									
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+			
 
 
             <!-- ============================================================== -->
