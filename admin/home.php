@@ -70,7 +70,7 @@ require_once '../template/header.php';
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                         		<div class="card-box">
                                     <a href="#" class="pull-right btn btn-default btn-sm waves-effect waves-light">View All</a>
                         			<h4 class="text-dark header-title m-t-0">Recent Activities</h4>
