@@ -70,9 +70,10 @@ require_once '../template/header.php';
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                         		<div class="card-box">
                                     <a href="#" class="pull-right btn btn-default btn-sm waves-effect waves-light">View All</a>
+                        <div class="portlet-heading portlet-default">
                             <h3 class="portlet-title text-dark">
                                 Aktivitas field facilitator
                             </h3>
@@ -134,8 +135,8 @@ require_once '../template/header.php';
                                     </table>
                                 </div>
                             </div>
-                        
-                    
+                        </div>
+                    </div>
 
 
                 </div>              
