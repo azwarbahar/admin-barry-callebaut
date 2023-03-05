@@ -70,14 +70,15 @@ require_once '../template/header.php';
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-8" style="overflow-y: scroll; height:300px; weight: 1400px">
+            <div class="col-lg-6">
+                        		<div class="card-box">
+                                    <a href="#" class="pull-right btn btn-default btn-sm waves-effect waves-light">View All</a>
+                        			<h4 class="text-dark header-title m-t-0">Recent Activities</h4>
+                        			<p class="text-muted m-b-30 font-13">
+										Your awesome text goes here. Yeah !!
+									</p>
 
-                    <div class="portlet" style= "background: green">
-                        <div class="portlet-heading portlet-default">
-                            <h3 class="portlet-title text-dark">
-                                Aktivitas field facilitator
-                            </h3>
+                        			<div class="nicescroll p-20" style="height: 295px;">
                             <div class="portlet-widgets">
                                 <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
                                 <span class="divider"></span>
