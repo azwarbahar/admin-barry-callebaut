@@ -70,32 +70,18 @@ require_once '../template/header.php';
                 </div>
             </div>
 
-            <div class="col-lg-8">
-                        		<div class="card-box">
-                                    <a href="#" class="pull-right btn btn-default btn-sm waves-effect waves-light">View All</a>
-                        			<h4 class="text-dark header-title m-t-0">Recent Activities</h4>
-                        			<p class="text-muted m-b-30 font-13">
-										Your awesome text goes here. Yeah !!
-									</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card-box">
+                        <a href="#" class="pull-right btn btn-default btn-sm waves-effect waves-light">View All</a>
+                        <h4 class="text-dark header-title m-t-0">Recent Activities</h4>
+                        <p class="text-muted m-b-30 font-13">
+							Your awesome text goes here. Yeah !!
+						</p>
 
-                        			<div class="nicescroll p-20" style="height: 295px;">
-                            <div class="portlet-widgets">
-                                <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
-                                <span class="divider"></span>
-                                <a data-toggle="collapse" data-parent="#accordion1" href="#bg-loker-terbaru"><i class="ion-minus-round"></i></a>
-                                <span class="divider"></span>
-                                <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
-                            </div>
-                            <!-- <div class="clearfix"></div> -->
-                        </div>
-
-                        <div id="bg-loker-terbaru" class="panel-collapse collapse in">
-                            <div class="portlet-body">
-                                <!-- <a href="loker.php" class="btn btn-default btn-sm waves-effect waves-light">View All</a> -->
-
-
-                                <div class="p-20">
-                                    <table class="table m-0">
+                        <div class="nicescroll p-20" style="height: 295px;">
+                        <div class="p-20">
+                            <table class="table m-0">
                                         <thead>
                                             <tr>
                                                 <th>Foto</th>
@@ -134,14 +120,14 @@ require_once '../template/header.php';
                                             }
                                             ?>
                                         </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+                            </table>
+                        </div>      
                     </div>
+                </div>
+            </div>
 
 
-                </div>              
+            </div>              
                 
                 <div class="col-lg-4">
                     <div class="portlet">
