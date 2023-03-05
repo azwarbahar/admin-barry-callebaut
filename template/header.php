@@ -172,7 +172,7 @@ $get_data_akun = mysqli_fetch_assoc($query_header_akun);
         <!-- ========== Left Sidebar Start ========== -->
 
 
-        <div class="left side-menu">
+        <div class="left side-menu" style= "red">
             <div class="sidebar-inner slimscrollleft">
                 <!--- Divider -->
                 <div id="sidebar-menu">
