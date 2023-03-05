@@ -73,9 +73,9 @@ require_once '../template/header.php';
             <div class="row">
                 <div class="col-lg-8" style="overflow-y: scroll; height:300px; weight: 1400px">
 
-                    <div class="portlet" style= "background: green">
+                    <div class="portlet">
                         <div class="portlet-heading portlet-default">
-                            <h3  style="color:green">
+                            <h3 class="portlet-title text-dark">
                                 Aktivitas field facilitator
                             </h3>
                             <div class="portlet-widgets">
