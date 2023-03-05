@@ -75,7 +75,7 @@ require_once '../template/header.php';
 
                     <div class="portlet" style= "background: green">
                         <div class="portlet-heading portlet-default">
-                            <h3 class="portlet-title" style="color:green">
+                            <h3  style="color:green">
                                 Aktivitas field facilitator
                             </h3>
                             <div class="portlet-widgets">
