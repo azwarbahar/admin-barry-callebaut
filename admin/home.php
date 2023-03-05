@@ -134,8 +134,8 @@ require_once '../template/header.php';
                                     </table>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        
+                    
 
 
                 </div>              
