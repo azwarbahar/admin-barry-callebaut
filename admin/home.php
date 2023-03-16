@@ -80,7 +80,7 @@ require_once '../template/header.php';
 						</p>
 
                         <div class="nicescroll p-20" style="height: 295px; weight: 500px;" >
-                        <div class="p-20">
+                        
                             <table class="table m-0">
                                         <thead>
                                             <tr>
@@ -121,7 +121,7 @@ require_once '../template/header.php';
                                             ?>
                                         </tbody>
                             </table>
-                        </div>      
+                             
                     </div>
                 </div>
             </div>
