@@ -73,7 +73,7 @@ require_once '../template/header.php';
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card-box">
-                        <a href="#" class="pull-right btn btn-default btn-sm waves-effect waves-light">View All</a>
+                       
                         <h4 class="text-dark header-title m-t-0">Aktifitas Petugas Lapangan</h4>
                         <div class="nicescroll p-20" style="height: 295px; weight: 500px;">
  
