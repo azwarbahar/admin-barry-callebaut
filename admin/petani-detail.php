@@ -191,7 +191,7 @@ $dta = mysqli_fetch_assoc($result);
                                                 <th> Foto </th>
                                                 <th> Petugas </th>
                                                 <th> Petani </th>
-                                                <th> Tanggal </th>
+                                                <th> Nilai </th>
                                                 <th> # </th>
                                             </tr>
                                         </thead>
@@ -216,7 +216,39 @@ $dta = mysqli_fetch_assoc($result);
                                                     $dta_petani = mysqli_fetch_assoc($result_petani);
                                                     ?>
                                                     <td> <a href="petani-detail.php?id=<?= $dta_petani['id'] ?>"> <?= $dta_petani['nama'] ?> </a> </td>
-                                                    <td><?= $get_inspeksi['tanggal'] ?></td>
+                                                    
+                                                    <?php
+                                                    $a1 = perhitunganSelisiGAP($get_inspeksi['a1'] - 3);
+                                                    $a2 = perhitunganSelisiGAP($get_inspeksi['a2'] - 3);
+                                                    $a3 = perhitunganSelisiGAP($get_inspeksi['a3'] - 4);
+                                                    $a4 = perhitunganSelisiGAP($get_inspeksi['a4'] - 4);
+                                                    $a5 = perhitunganSelisiGAP($get_inspeksi['a5'] - 3);
+                                                    $a6 = perhitunganSelisiGAP($get_inspeksi['a6'] - 4);
+                                                    $a7 = perhitunganSelisiGAP($get_inspeksi['a7'] - 4);
+                                                    $a8 = perhitunganSelisiGAP($get_inspeksi['a8'] - 4);
+                                                    $a9 = perhitunganSelisiGAP($get_inspeksi['a9'] - 2);
+                                                    // TD factor Core
+                                                    $jumlah_core = $a3 + $a4 + $a6 + $a7 + $a8;
+                                                    $hasil_core = $jumlah_core / 5;
+                                                    // echo "<td>$hasil_core</td>";
+                                                    // TD factor Secondary
+                                                    $jumlah_secondary = $a1 + $a2 + $a5 + $a9;
+                                                    $hasil_secondary = $jumlah_secondary / 4;
+                                                    // echo "<td>$hasil_secondary</td>";
+
+                                                    // TD Total
+                                                    $total = (0.6 * $hasil_core) + (0.4 * $hasil_secondary);
+                                                    if ($total < 3) {
+                                                        echo "<th style='color: red;' >$total</th>";
+
+                                                    } else {
+                                                        echo "<th>$total</th>";
+
+                                                    }
+                                                    // $tampung_total[$z] = $total;
+                                                ?>
+                                                  
+                                                    
                                                     <td style="text-align: center;">
                                                         <a href="#" data-toggle="modal" data-target="#accordion-modal-<?= $get_inspeksi['id'] ?>" class="table-action-btn"><i class="md md-visibility"></i></a>
                                                     </td>
