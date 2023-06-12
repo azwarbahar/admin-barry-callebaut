@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set("Asia/Makassar");
 session_start();
-$conn = mysqli_connect("localhost", "u319221554_ishaqweb", "Uinam_2016", "u319221554_ishaqweb   ");
+$conn = mysqli_connect("localhost", "u319221554_ishaqweb", "Uinam_2016", "u319221554_ishaqweb");
 
 function perhitunganSelisiGAP($nilai)
 {
