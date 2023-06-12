@@ -11,7 +11,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ftp.tomoniwalet.com
+          server: ftp://tomoniwalet.com
           username: u319221554.ishaq
           password: Uinam_2016
           port: 21
