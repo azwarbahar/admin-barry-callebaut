@@ -56,7 +56,7 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani ORDER BY id DESC");
                                                 <label class="col-sm-3 col-form-label">Nama Lengkap</label>
                                                 <div class="col-sm-9">
                                                     <input type="text" class="nb-edt form-control" required="" autocomplete="off" placeholder="Nama Lengkap" name="nama" id="nama">
-                                                </div>
+                                                </div> q 
                                             </div>
 
                                             <div class="form-group row">
