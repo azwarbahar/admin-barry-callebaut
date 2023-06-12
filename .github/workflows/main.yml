@@ -14,3 +14,5 @@ jobs:
           server: ftp.tomoniwalet.co.id
           username: ${{ secrets.USERNAME_FTP }}
           password: ${{ secrets.PASSWORD_FTP }}
+          secure: true
+          port: 21
