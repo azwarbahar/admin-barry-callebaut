@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set("Asia/Makassar");
 session_start();
-$conn = mysqli_connect("localhost", "root", "", "barry-callebaut_db");
+$conn = mysqli_connect("localhost", "u319221554_ishaqskripsi", "Uinam_2016", "u319221554_ishaqskripsi");
 // $conn = mysqli_connect("localhost", "u3737783_uinamfind", "uinamfind", "u3737783_uinamfind_db");
 
 function perhitunganSelisiGAP($nilai)
