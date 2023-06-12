@@ -14,3 +14,4 @@ jobs:
           server: ftp.tomoniwalet.com
           username: u319221554.ishaq
           password: Uinam_2016
+          port: 21
