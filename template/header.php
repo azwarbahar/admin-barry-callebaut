@@ -23,7 +23,7 @@ $get_data_akun = mysqli_fetch_assoc($query_header_akun);
 
     <link rel="shortcut icon" href="../assets/images/favicon_1.ico">
 
-    <title>Barry Callebaut - Admin Dashboard</title>
+    <title>Skripsi Ishaq - Admin Dashboard</title>
     <link href="../assets/plugins/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" type="text/css" />
     <link href="../assets/plugins/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css" />
 
