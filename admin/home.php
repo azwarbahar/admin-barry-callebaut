@@ -232,7 +232,7 @@ require_once '../template/header.php';
                                                         $hasil_secondary = $jumlah_secondary / 4;
                                                         // TD Total
                                                         $total = (0.6 * $hasil_core) + (0.4 * $hasil_secondary);
-                                                        if ($total < 3) {
+                                                        if ($total < 2.5) {
                                                             echo "<td><span class='label label-danger'> $total </span></td>";
                                                         } else {
                                                             echo "<td><span class='label label-primary'> $total </span></td>";
