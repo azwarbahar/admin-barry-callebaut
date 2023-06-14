@@ -169,7 +169,7 @@ require_once '../template/header.php';
             </div>
 
            
-            <div class="col-lg-8" style="overflow-y: scroll; height:400px;">
+            <div class="col-lg-8" style="overflow-y: scroll; height:800px;">
                 <div class="row">
                         <div class="portlet">
                             <div class="portlet-heading bg-danger">
