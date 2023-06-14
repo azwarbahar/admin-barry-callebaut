@@ -170,7 +170,7 @@ require_once '../template/header.php';
                 </div>
             </div>
 
-            <div class="col-lg-8" style="overflow-y: scroll; height:350px;">
+            <div class="col-lg-8" style="overflow-y: scroll; height:340px;">
                 <div class="row">
                     
                         <div class="portlet">
