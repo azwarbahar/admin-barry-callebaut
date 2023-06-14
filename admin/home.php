@@ -234,9 +234,7 @@ require_once '../template/header.php';
                                                         $total = (0.6 * $hasil_core) + (0.4 * $hasil_secondary);
                                                         if ($total < 3) {
                                                             echo "<td><span class='label label-danger'> $total </span></td>";
-                                                        } else {
-                                                            echo "<td><span class='label label-primary'> $total </span></td>";
-                                                        }
+                                                        } 
                                                         ?>
                                                         <td>
                                                             <a href="#" data-toggle="modal" data-target="#hapus-<?= $dta_petani_rekomendasi_delete['id'] ?>" class="table-action-btn"><i class="md md-delete"></i></a>
