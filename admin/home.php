@@ -122,10 +122,6 @@ require_once '../template/header.php';
                     </div>
                 </div>
 
-
-            </div>
-
-            <div class="row">
                 <div class="col-lg-4">
                     <div class="portlet">
                         <div class="portlet-heading portlet-default">
@@ -171,6 +167,8 @@ require_once '../template/header.php';
                     </div>
                 </div>
             </div>
+
+           
             <div class="col-lg-8" style="overflow-y: scroll; height:340px;">
                 <div class="row">
                     
