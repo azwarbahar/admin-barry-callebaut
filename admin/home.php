@@ -174,7 +174,7 @@ require_once '../template/header.php';
                 <div class="row">
                     
                         <div class="portlet">
-                            <div class="portlet-heading bg-pink">
+                            <div class="portlet-heading bg-danger">
                                 <h3 class="portlet-title">
                                     Petani Rekomendasi Keluar
                                 </h3>
