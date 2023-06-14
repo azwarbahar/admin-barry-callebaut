@@ -216,7 +216,7 @@ require_once '../template/header.php';
                                                         $inspeksi = mysqli_query($conn, "SELECT * FROM tb_inspeksi WHERE petani_id = '$dta_petani_rekomendasi_delete[id]' ORDER BY id DESC LIMIT 1");
                                                         $data_inspeksi = mysqli_fetch_assoc($inspeksi);
                                                         $a1 = perhitunganSelisiGAP($data_inspeksi['a1'] - 2);
-                                                        $a2 = perhitunganSelisiGAP($data_inspeksi['a2'] - 3);
+                                                        $a2 = perhitunganSelisiGAP($data_inspeksi['a2'] - 4);
                                                         $a3 = perhitunganSelisiGAP($data_inspeksi['a3'] - 4);
                                                         $a4 = perhitunganSelisiGAP($data_inspeksi['a4'] - 4);
                                                         $a5 = perhitunganSelisiGAP($data_inspeksi['a5'] - 3);
