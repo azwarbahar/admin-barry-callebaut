@@ -71,11 +71,11 @@ require_once '../template/header.php';
             </div>
 
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="card-box">
 
                         <h4 class="text-dark header-title m-t-0">Aktifitas Petugas Lapangan</h4>
-                        <div class="nicescroll p-20" style="height: 295px; weight: 500px;">
+                        <div class="nicescroll p-20" style="height: 295px;">
 
                             <table class="table m-0">
                                 <thead>
