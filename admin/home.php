@@ -186,7 +186,7 @@ require_once '../template/header.php';
                             <div id="bg-danger" class="panel-collapse collapse in">
                                 <div class="portlet-body">
                                     
-                                    <div class="p-20">
+                                    
                                         <table class="table table-actions-bar m-0">
                                             <thead>
                                                 <tr>
@@ -269,7 +269,8 @@ require_once '../template/header.php';
                                                 ?>
                                             </tbody>
                                         </table>
-                                    </div>
+                                  
+
 
 
                                 </div>
