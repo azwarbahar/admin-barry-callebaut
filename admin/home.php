@@ -173,6 +173,7 @@ require_once '../template/header.php';
                                 <h3 class="portlet-title">
                                     Petani Rekomendasi Keluar
                                 </h3>
+                                
                                 <div class="portlet-widgets">
                                     <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
                                     <span class="divider"></span>
