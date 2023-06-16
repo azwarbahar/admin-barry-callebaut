@@ -170,7 +170,7 @@ require_once '../template/header.php';
 
            
             
-            <div class="row">
+            
                 <div class="col-lg-4">
                         <div class="portlet">
                             <div class="portlet-heading bg-danger">
@@ -278,7 +278,7 @@ require_once '../template/header.php';
                             </div>
                         </div>
                 </div>                                
-            </div>
+            
 
             
 
