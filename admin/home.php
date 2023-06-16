@@ -133,7 +133,6 @@ require_once '../template/header.php';
                                 <span class="divider"></span>
                                 <a data-toggle="collapse" data-parent="#accordion1" href="#bg-loker"><i class="ion-minus-round"></i></a>
                                 <span class="divider"></span>
-                                <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
                             </div>
                             <div class="clearfix"></div>
                         </div>
