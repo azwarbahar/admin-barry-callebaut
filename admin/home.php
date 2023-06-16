@@ -165,7 +165,9 @@ require_once '../template/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                </div>
+                <div class="row">
+                <div class="col-lg-4">
                         <div class="portlet">
                             <div class="portlet-heading bg-danger">
                                 <h3 class="portlet-title">
@@ -271,15 +273,13 @@ require_once '../template/header.php';
                                 </div>
                             </div>
                         </div>
-                </div>   
-                </div>
+                </div>                                
+            </div>
             </div>
 
            
             
-            <div class="row">
-                                             
-            </div>
+            
 
             
 
