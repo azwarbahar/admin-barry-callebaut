@@ -173,7 +173,6 @@ require_once '../template/header.php';
                                 <h3 class="portlet-title">
                                     Petani Rekomendasi Keluar
                                 </h3>
-                                
                                 <div class="portlet-widgets">
                                     <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
                                     <span class="divider"></span>
@@ -182,6 +181,7 @@ require_once '../template/header.php';
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
+                            <div class="nicescroll p-20" style="height: 600px;">
                             <div id="bg-danger" class="panel-collapse collapse in">
                                 <div class="portlet-body">
 
@@ -272,6 +272,7 @@ require_once '../template/header.php';
 
 
                                 </div>
+                            </div>
                             </div>
                         </div>
                 </div>                                
