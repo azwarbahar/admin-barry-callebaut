@@ -182,9 +182,10 @@ require_once '../template/header.php';
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
+                            <div class="nicescroll p-20" style="height: 200px;">
                             <div id="bg-danger" class="panel-collapse collapse in">
                                 <div class="portlet-body">
-                                <div class="nicescroll p-20" style="height: 600px;">
+                                    
                                     <div class="p-20">
                                         <table class="table table-actions-bar m-0">
                                             <thead>
@@ -270,8 +271,9 @@ require_once '../template/header.php';
                                         </table>
                                     </div>
 
+
                                 </div>
-                                </div>
+                            </div>
                             </div>
                         </div>
                 </div>                                
