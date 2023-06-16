@@ -182,7 +182,7 @@ require_once '../template/header.php';
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
-                            <div class="nicescroll" style="height: 266px;">
+                            <div class="nicescroll" style="height: 270px;">
                             <div id="bg-danger" class="panel-collapse collapse in">
                                 <div class="portlet-body">
                                     
