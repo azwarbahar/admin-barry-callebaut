@@ -56,7 +56,7 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani ORDER BY id DESC");
                                                 <label class="col-sm-3 col-form-label">Nama Lengkap</label>
                                                 <div class="col-sm-9">
                                                     <input type="text" class="nb-edt form-control" required="" autocomplete="off" placeholder="Nama Lengkap" name="nama" id="nama">
-                                                </div> q 
+                                                </div> q
                                             </div>
 
                                             <div class="form-group row">
@@ -93,7 +93,7 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani ORDER BY id DESC");
                                                     <input type="text" class="nb-edt form-control" required="" autocomplete="off" placeholder="Kelurahan" name="kelurahan" id="kelurahan">
                                                 </div>
                                             </div>
-                                            
+
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">Batal</button>
                                                 <button type="submit" name="submit_tambah_petani" class="btn btn-default waves-effect">Simpan</button>
@@ -107,7 +107,7 @@ $petani = mysqli_query($conn, "SELECT * FROM tb_petani ORDER BY id DESC");
                         <a href="#" class="btn btn-default btn-rounded waves-effect waves-light m-b-30" data-toggle="modal" data-target="#con-close-modal-petani">Tambah</a>
 
                         <table id="datatable-buttons" class="table table-striped table-bordered table-actions-bar">
-                            
+
                             <thead>
                                 <tr>
                                     <th>ID</th>

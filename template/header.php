@@ -184,7 +184,7 @@ $get_data_akun = mysqli_fetch_assoc($query_header_akun);
                             <a href="home.php" class="waves-effect"><i class="ti-home"></i> <span> Dashboard </span></a>
                         </li>
                         <li class="has_sub">
-                            <a href="karyawan.php" class="waves-effect"><i class="ti-archive"></i> <span> Karyawan </span></a>
+                            <a href="karyawan.php" class="waves-effect"><i class="md-group"></i> <span> Karyawan </span></a>
                         </li>
                         <li class="has_sub">
                             <a href="petani.php" class="waves-effect"><i class="ti-archive"></i> <span> Petani </span></a>
