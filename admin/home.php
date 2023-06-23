@@ -75,7 +75,7 @@ require_once '../template/header.php';
                     <div class="card-box">
 
                         <h4 class="text-dark header-title m-t-0">Aktifitas Petugas Lapangan</h4>
-                        
+                        <div class="nicescroll p-20" style="height: 600px;">
 
                             <table class="table m-0">
                                 <thead>
@@ -87,7 +87,6 @@ require_once '../template/header.php';
                                         <th> Tanggal </th>
                                     </tr>
                                 </thead>
-                                <div class="nicescroll p-20" style="height: 600px;">
                                 <tbody>
                                     <?php
                                     $inspeksi = mysqli_query($conn, "SELECT * FROM tb_inspeksi ORDER BY updated_at DESC LIMIT 15");
@@ -117,10 +116,9 @@ require_once '../template/header.php';
                                     }
                                     ?>
                                 </tbody>
-                                </div>
                             </table>
 
-                        
+                        </div>
                     </div>
                 </div>
 
