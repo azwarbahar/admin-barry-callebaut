@@ -374,43 +374,7 @@ $progres_petugas = mysqli_query($conn, "SELECT * FROM tb_karyawan WHERE posisi =
             </div>
 
 
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="card-box table-responsive">
-                        <h4 class="m-t-0 header-title"><b>Progres Field facilitator</b></h4>
-                        <table id="" class="table table table-hover m-0">
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Nama</th>
-                                    <th>Koordinator</th>
-                                    <th>Progres</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <?php $i = 1;
-                                foreach ($progres_petugas as $dta_petugas) { ?>
-                                    <tr>
-                                        <td><?= $dta_petugas['no_kepegawaian'] ?></td>
-                                        <td><?= $dta_petugas['nama'] ?></td>
-                                        <?php
-                                        $result_koordinator = mysqli_query($conn, "SELECT * FROM tb_karyawan WHERE id = '$dta_petugas[koordinator]'");
-                                        $dta_koordinator = mysqli_fetch_assoc($result_koordinator);
-                                        ?>
-                                        <td> <a href="karyawan-detail.php?id=<?= $dta_koordinator['id'] ?>"> <?= $dta_koordinator['nama'] ?> </a> </td>
-                                        <td>
-                                            <span class="label label-primary">Done</span>
-                                        </td>
-                                    </tr>
-                                <?php $i = $i + 1;
-                                } ?>
-
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>        
+                  
         
 
             <!-- ============================================================== -->
