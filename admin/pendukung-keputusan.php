@@ -1,7 +1,7 @@
 <?php
 require_once '../template/header.php';
 
-$petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE status = 'Aktif' OR status = 'Suspended' ORDER BY id ASC");
+$petani = mysqli_query($conn, "SELECT * FROM tb_petani WHERE status = 'Aktif' OR status = 'Suspended' ORDER BY id DESC");
 
 ?>
 
