@@ -21,7 +21,7 @@ $get_data_akun = mysqli_fetch_assoc($query_header_akun);
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
 
-    <link rel="shortcut icon" href="../assets/images/favicon_1.ico">
+    <link rel="shortcut icon" href="../assets/images/2.png">
 
     <title>Skripsi Ishaq - Admin Dashboard</title>
     <link href="../assets/plugins/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" type="text/css" />
